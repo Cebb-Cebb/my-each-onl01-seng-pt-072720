@@ -1,9 +1,12 @@
-def my_each(collection) # put argument(s) here
-  
-  
-  
-  
-  
-  
-  # code here
+def my_each(collection)
+ count = 0
+ while counter < collection.size
+   yield(collection[count])
+ count += 1
 end
+  collection
+end
+  
+  
+  
+  
